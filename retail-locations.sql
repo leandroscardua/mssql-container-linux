@@ -1,4 +1,6 @@
-﻿SELECT s.[BusinessEntityID] as Id
+USE AdventureWorks2019
+GO
+SELECT s.[BusinessEntityID] as Id
      , s.[Name]
      , a.[AddressLine1]
      , a.[AddressLine2]
