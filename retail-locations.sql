@@ -1,4 +1,4 @@
-USE AdventureWorks2017
+USE AdventureWorks2019
 GO
 SELECT s.[BusinessEntityID] as Id
      , s.[Name]
