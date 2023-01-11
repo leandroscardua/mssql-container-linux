@@ -13,8 +13,6 @@ RUN wget -progress=bar:force -q -O AdventureWorks2019.bak https://github.com/Mic
    && mkdir /var/opt/mssql/backup \
    && cp AdventureWorks2019.bak /var/opt/mssql/backup/
 
-RUN wget -progress=bar:force -q -O AdventureWorks2019.bak https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak \
-
 # Change back to the mssql user to restore the database
 USER mssql
 
